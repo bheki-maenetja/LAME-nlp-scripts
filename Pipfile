@@ -9,6 +9,8 @@ pandas = "*"
 numpy = "*"
 nltk = "*"
 spacy = "*"
+requests = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 
