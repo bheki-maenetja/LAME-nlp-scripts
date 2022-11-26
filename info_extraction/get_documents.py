@@ -60,4 +60,4 @@ def save_article(page_info, directory="corpus"):
 if __name__ == "__main__":
     search_term = get_text_cli("Enter a search term", min_length=1)
     search_result = search(search_term)
-    print(search_result)
+    save_article(search_result)
