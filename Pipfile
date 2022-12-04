@@ -11,6 +11,8 @@ nltk = "*"
 spacy = "*"
 requests = "*"
 beautifulsoup4 = "*"
+transformers = "*"
+torch = "*"
 
 [dev-packages]
 
