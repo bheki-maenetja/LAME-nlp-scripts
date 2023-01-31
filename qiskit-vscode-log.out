@@ -26,3 +26,4 @@ info - Object: Go to install qiskit
 verbose - PackageManager: Clicked on another element! Cancelling install
 info - PackageManager: Package [object Object] do not updated. The user rejected the update
 info - Object: Go to install qiskit-aqua
+verbose - Object: Deactivating Qiskit extension ...
