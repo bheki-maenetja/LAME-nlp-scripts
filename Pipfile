@@ -15,6 +15,7 @@ transformers = "*"
 torch = "*"
 ipywidgets = "*"
 sentence-transformers = "*"
+openai = "*"
 
 [dev-packages]
 
