@@ -54,13 +54,13 @@ class BertQa():
             for fname in self._corpus:
                 tf_idfs[fname] += self._corpus[fname].count(w) * idfs.get(w, 0)
         
-        ranked_scores = sorted(
+        ranked_files = sorted(
             tf_idfs.items(),
             key=lambda x: x[1],
             reverse=True
         )
 
-        return [score[0] for score in ranked_scores][:self._file_matches]
+        return [file[0] for file in ranked_files][:self._file_matches]
     
     def _top_files_cosine(self, query, fnames):
         model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
@@ -68,7 +68,6 @@ class BertQa():
         ranked_files = sorted([
             (name, self._cosine_similarity(query, self._corpus[name], model))
             for name in fnames
-            reverse=True
-        ])
+        ], key=lambda x: x[1], reverse=True)
 
-        return ranked_files
+        return [file[0] for file in ranked_files][:self._file_matches]
