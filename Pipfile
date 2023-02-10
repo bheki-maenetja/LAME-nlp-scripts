@@ -16,6 +16,7 @@ torch = "*"
 ipywidgets = "*"
 sentence-transformers = "*"
 openai = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
