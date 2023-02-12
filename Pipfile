@@ -17,6 +17,7 @@ ipywidgets = "*"
 sentence-transformers = "*"
 openai = "*"
 python-dotenv = "*"
+sumy = "*"
 
 [dev-packages]
 
