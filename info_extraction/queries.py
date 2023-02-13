@@ -27,3 +27,6 @@ def get_text_cli(
             break
     
     return string
+
+if __name__ == "__main__":
+    pass
