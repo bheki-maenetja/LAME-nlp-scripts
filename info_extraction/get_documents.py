@@ -17,6 +17,17 @@ def search(term, advanced_parse=False):
     
     return None
 
+def article_id(term):
+    base_url = "https://en.wikipedia.org/wiki/"
+    res = r.get(base_url + term)
+
+    if res.status_code == 200:
+        doc_text = res.text
+        soup = BeautifulSoup(doc_text, "html.parser")
+        return soup.find(id="t-wikibase").a.attrs['href'].split("/")[-1]
+    
+    return None
+
 def parser(text, advanced=False):
     soup = BeautifulSoup(text, "html.parser")
     title = soup.title.text.replace("- Wikipedia", "").strip()
