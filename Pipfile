@@ -19,6 +19,7 @@ openai = "*"
 python-dotenv = "*"
 sumy = "*"
 wikipedia-api = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
