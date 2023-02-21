@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "34d84cda6e57cc8ca0c02e923877c9ccabb6f0df96a9e563007a83e910447b25"
+            "sha256": "b2f0536a51c31f780c7ba40e2ffba9bf852f43dfc340bb5ce7afa727d07d75b3"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -1369,6 +1369,14 @@
             "markers": "python_version >= '3.7'",
             "version": "==3.0.0"
         },
+        "plotly": {
+            "hashes": [
+                "sha256:4ac5db72176ce144f1fcde8d1ef7bdbccf5bb7a53e3d366b16fcd7c85319fdfd",
+                "sha256:81a3aae4021d5ab91790fc71c3433791f41bfc71586e857f7777f429a955039a"
+            ],
+            "index": "pypi",
+            "version": "==5.13.0"
+        },
         "preshed": {
             "hashes": [
                 "sha256:019d8fa4161035811fb2804d03214143298739e162d0ad24e087bd46c50970f5",
@@ -1458,7 +1466,7 @@
             "hashes": [
                 "sha256:b2163a246c585894d808f18783e19137cb70a0c18fb36748dc01fc6f109c1646"
             ],
-            "markers": "python_version >= '3.6' and python_version < '4'",
+            "markers": "python_version >= '3.6' and python_version < '4.0'",
             "version": "==22.3.5"
         },
         "pycparser": {
@@ -1950,7 +1958,7 @@
                 "sha256:b4c9ae193ad6d3e7add50944b86afa0d150bd821ab8ec21edb26d9a06b66f6a8",
                 "sha256:d5238825fe9a9340645fac3d75b287c08fbb99fb2b422477de781c9f5f09e019"
             ],
-            "markers": "python_version >= '3.6' and python_version < '4'",
+            "markers": "python_version >= '3.6' and python_version < '4.0'",
             "version": "==6.3.0"
         },
         "sniffio": {
@@ -2067,6 +2075,14 @@
             ],
             "index": "pypi",
             "version": "==0.11.0"
+        },
+        "tenacity": {
+            "hashes": [
+                "sha256:c7bb4b86425b977726a7b49971542d4f67baf72096597d283f3ffd01f33b92df",
+                "sha256:dd1b769ca7002fda992322939feca5bee4fa11f39146b0af14e0b8d9f27ea854"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==8.2.1"
         },
         "terminado": {
             "hashes": [
