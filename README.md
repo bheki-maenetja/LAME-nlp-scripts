@@ -1,2 +1,2 @@
 # LAME-nlp-scripts
-Files of to implement NLP techniques for main L.A.M.E application.
+Sandbox for the development of NLP techniques used in LAME web application.
